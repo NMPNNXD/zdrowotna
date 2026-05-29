@@ -1,4 +1,4 @@
-package com.example.wodaisamopoczucie
+package com.example.zdrowie
 
 import org.junit.Test
 
