@@ -1,4 +1,4 @@
-package com.example.wodaisamopoczucie
+package com.example.zdrowie
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -21,10 +21,12 @@ class MainActivity : AppCompatActivity() {
         "Sen jest kluczowy dla regeneracji.",
         "Sen jest kluczowy dla regeneracji.",
         "Sen jest kluczowy dla regeneracji.",
+        "Oglądaj seriale lub filmy przez całą noc zamiast spać.",
         "Sen jest kluczowy dla regeneracji.",
         "Pij wodę.",
         "Pij wodę.",
         "Czuj się dobrze to nie będziesz mieć depresji.",
+        "Hazard poprawi ci chumor.",
         "Nikt i tak tego nie czyta...",
         "Pij wodę...albo i nie, twój wybór...",
         "Idź już śpać!",
@@ -38,9 +40,11 @@ class MainActivity : AppCompatActivity() {
         "Śpij conajmniej 8 godzin dziennie.",
         "Śpij conajmniej 8 godzin dziennie.",
         "Śpij conajmniej 8 godzin dziennie.",
+        "Śpij ile uważasz żę potrzebujesz.",
         "Śpij conajmniej 8 godzin dziennie.",
         "Odżywiaj się zdrowo.",
         "Odżywiaj się zdrowo.",
+        "Jedz co jadalne.",
         "Odżywiaj się zdrowo.",
         "Odżywiaj się zdrowo.",
         "Nie kozystaj z telefonu przed pójściem spać.",
@@ -51,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         "Idź spać o normalnej porze.",
         "Idź spać o normalnej porze.",
         "Idź spać o normalnej porze.",
+        "Sen jest przereklamowany.",
         "Ortografia jest trudna",
         "Następna wskazówka kłamie!",
         "ERROR 404",
@@ -121,11 +126,11 @@ class MainActivity : AppCompatActivity() {
             sharedPref.edit().putString("moodHistory", history + newEntry).apply()
         }
 
-        loveBtn.setOnClickListener { saveMood("😍 Bardzo szczęśliwy") }
-        happyBtn.setOnClickListener { saveMood("😊 Szczęśliwy") }
+        loveBtn.setOnClickListener { saveMood("😍 YIPPEE") }
+        happyBtn.setOnClickListener { saveMood("😊 Nepopil, neporuhal, a veselý") }
         neutralBtn.setOnClickListener { saveMood("😐 Neutralny") }
-        sadBtn.setOnClickListener { saveMood("😢 Smutny") }
-        angryBtn.setOnClickListener { saveMood("😡 Zły") }
+        sadBtn.setOnClickListener { saveMood("😢 Popil, poruhál, a smutny") }
+        angryBtn.setOnClickListener { saveMood("😡 Skończyło się babci sranie") }
 
         historyButton.setOnClickListener {
             startActivity(Intent(this, HistoryActivity::class.java))
