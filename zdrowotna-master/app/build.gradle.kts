@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wodaisamopoczucie"
+    namespace = "com.example.zdrowie"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.wodaisamopoczucie"
+        applicationId = "com.example.zdrowie"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
