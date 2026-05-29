@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.WodaISamopoczucie" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.zdrowie" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.WodaISamopoczucie" parent="Base.Theme.WodaISamopoczucie" />
+    <style name="Theme.zdrowie" parent="Base.Theme.zdrowie" />
 </resources>
